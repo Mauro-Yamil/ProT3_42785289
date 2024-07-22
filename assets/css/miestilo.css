@@ -1,0 +1,55 @@
+.btn-outline-success {
+    background-color: transparent!important; /* Mantiene el fondo transparente */
+    border-color: #654321; 
+    color: rgb(11, 11, 11); 
+}
+
+.btn-outline-success:hover,
+.btn-outline-success:focus,
+.btn-outline-success:active {
+    border-color: #553300; /* Cambia el color del borde al pasar el mouse, enfocado o activado */
+    box-shadow: 0 0 0 0.2rem rgba(102, 51, 18, 0.25); /* Añade un efecto de sombra */
+}
+
+.card-img-top {
+    height: 200px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin distorsionarse */
+}
+
+.seccion-con-fondo-gradiente {
+    background-image: linear-gradient(to right, #654321, #a52a2a);
+}
+
+.bg-secondary {
+    background-color: #333!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.card-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+    footer {
+    color: #fff;
+    padding: 20px 0; }
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; }
+
+
+ .social-icons img{
+    width: 40px;
+    height: 40px;
+ }
